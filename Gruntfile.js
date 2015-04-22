@@ -34,8 +34,8 @@ module.exports = function( grunt )
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-concat');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
+  require('load-grunt-tasks')(grunt, { scope: 'devDependencies' });
+  require('time-grunt')(grunt);
   grunt.registerTask('default',['concat','uglify'])
 
 }

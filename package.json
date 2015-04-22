@@ -28,12 +28,11 @@
     "grunt-contrib-concat": "~0.5.1",
     "grunt-contrib-uglify": "~0.8.0",
     "grunt-contrib-watch": "~0.6.1",
-    "load-grunt-tasks": "~3.1.0"
-
+    "load-grunt-tasks": "~3.1.0",
+    "time-grunt": "^1.1.0"
   },
   "scripts": {
     "build": "npm install && grunt",
-    "start": "grunt watch",
-    "test": "grunt"
+    "watch": "grunt watch"
   }
 }

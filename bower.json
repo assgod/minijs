@@ -1,0 +1,19 @@
+{
+  "name": "minijs",
+  "version": "1.0.6",
+  "homepage": "https://github.com/assgod/minijs",
+  "authors": [
+    "assgod <assgod@foxmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
